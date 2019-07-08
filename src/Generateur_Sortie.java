@@ -15,6 +15,7 @@ import java.io.IOException;
 
 public class Generateur_Sortie {
 
+
     public static void main(String str[]) throws IOException, SAXException {
         final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
@@ -25,10 +26,8 @@ public class Generateur_Sortie {
             //TF.ajouterContenuDocument(document);
             //Transformateur_Renault TR = new Transformateur_Renault();
             //TR.createElement(document);
-            Transformateur_BoiteDialogue TBD = new Transformateur_BoiteDialogue();
-            TBD.addDocument(document);
-
-
+            //Transformateur_BoiteDialogue TBD = new Transformateur_BoiteDialogue();
+            //TBD.addDocument(document);
             final TransformerFactory transformerFactory = TransformerFactory.newInstance();
             final Transformer transformer = transformerFactory.newTransformer();
             final DOMSource source = new DOMSource(document);

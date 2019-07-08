@@ -12,7 +12,11 @@ import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Transformateur_Renault {
+public class Transformateur_Renault extends Transformateur {
+
+    public Transformateur_Renault(String source, String cible, String nom_fichier) {
+        super(source, cible, nom_fichier);
+    }
 
     public static void parcourRecursif(Node E, StringBuilder ss) {
 
@@ -25,10 +29,7 @@ public class Transformateur_Renault {
         }
     }
 
-    public static void main(String[] str) {
 
-
-    }
 
     public Element createElement(Document Doc) {
         final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -39,17 +40,14 @@ public class Transformateur_Renault {
         try {
 
             builder = factory.newDocumentBuilder();
-            document = builder.parse(new File("C:\\Users\\Geekzone\\Desktop\\Projet_Documents_Structures\\examen\\examen_bis\\poeme\\fiches\\renault\\renault.html"));
+            document = builder.parse(new File(source));
             final Element racine = document.getDocumentElement();
-
             StringBuilder ch = new StringBuilder("");
             parcourRecursif(racine, ch);
             String chaine = ch.toString();
             Pattern pattern = Pattern.compile("(\\s)+");
             Pattern pattern2 = Pattern.compile("Succursale .* end post");
             Matcher matcher = pattern.matcher(chaine);
-
-
             // check all occurance
             String retour = matcher.replaceAll(" ");
             Matcher matcher2 = pattern2.matcher(retour);
@@ -81,6 +79,11 @@ public class Transformateur_Renault {
             e.printStackTrace();
         }
         return racine2;
+    }
+
+    @Override
+    public void insererDansCible(Document D, Element E) {
+        E = createElement(D);
     }
 
 }
