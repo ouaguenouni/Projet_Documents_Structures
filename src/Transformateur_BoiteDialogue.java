@@ -7,7 +7,11 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
 
-public class Transformateur_BoiteDialogue {
+public class Transformateur_BoiteDialogue extends Transformateur {
+
+    protected Transformateur_BoiteDialogue(String source, String cible, String nom_fichier) {
+        super(source, cible, nom_fichier);
+    }
 
     public static void afficherAttributsNode(Node N) {
         NamedNodeMap Attr = N.getAttributes();
@@ -42,11 +46,7 @@ public class Transformateur_BoiteDialogue {
         }
     }
 
-    public static void main(String[] str) throws ParserConfigurationException, IOException, SAXException {
-
-    }
-
-    public void addDocument(Document D) throws ParserConfigurationException, IOException, SAXException {
+    public Element addDocument(Document D) throws ParserConfigurationException, IOException, SAXException {
         final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         final DocumentBuilder builder;
         final Document document;
@@ -57,7 +57,16 @@ public class Transformateur_BoiteDialogue {
         E.setAttribute("xmlns:fx", "http://javafx.com/fxml");
         D.appendChild(E);
         parcourRecursif(racine, E, D);
+        return E;
     }
 
 
+    @Override
+    public void insererDansCible(Document D, Element E) {
+        try {
+            E = addDocument(D);
+        } catch (ParserConfigurationException | IOException | SAXException e) {
+            e.printStackTrace();
+        }
+    }
 }
