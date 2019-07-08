@@ -9,7 +9,7 @@ public class Transformateur_Fich1 extends Transformateur_FichTxt {
         super(source, cible, nom_fichier);
     }
 
-    public Element ajouterContenuDocument1(Document document) {
+    public Element ajouterContenuDocument(Document document) {
         final Element racine = document.createElement("FICHES");
         document.appendChild(racine);
         int cpt = 0;
