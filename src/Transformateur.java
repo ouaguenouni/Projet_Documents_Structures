@@ -109,6 +109,7 @@ public abstract class Transformateur implements Transformable {
                         "fiche.dtd");
                 transformer.setOutputProperty(OutputKeys.DOCTYPE_SYSTEM, doctype.getSystemId());
             }
+            document.setXmlStandalone(true);
             final DOMSource source = new DOMSource(document);
 
             final StreamResult sortie = new StreamResult(new File(cible));

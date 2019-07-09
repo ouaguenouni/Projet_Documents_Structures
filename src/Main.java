@@ -63,7 +63,7 @@ public class Main {
             case "boitedialog.fxml":
                 source_cible.put(source,"javafx.xml");
                 break;
-            case "renault.html":
+            case "renault.txt":
                 source_cible.put(source,"renault.xml");
                 break;
             case "M457.xml":

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Racine xmlns:fx="http://javafx.com/fxml">
     <texte fx:controller="x">test.TestController</texte>
     <texte hgap="x">14.0</texte>
