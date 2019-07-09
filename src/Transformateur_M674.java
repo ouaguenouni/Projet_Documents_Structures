@@ -8,6 +8,8 @@ import javax.xml.transform.*;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Transformateur_M674 implements Transformable {
 
@@ -15,31 +17,36 @@ public class Transformateur_M674 implements Transformable {
         return (noeud.getNodeName() != "#text");
     }
 
-        public static void Afficher(Node noeud, Document doc, Element rac) throws Exception
+    public static void Afficher(Node noeud, Document doc, Element rac) throws Exception
+    {
+        Element el = (Element) noeud;
+        if(el.getChildNodes().getLength() >0)
         {
-                Element el = (Element) noeud;
-                if(el.getChildNodes().getLength() >0)
+            for (int cpt =0; cpt<el.getChildNodes().getLength(); cpt++)
+            {
+                Node a =el.getChildNodes().item(cpt);
+                if(Filtrer(a))
                 {
-                        for (int cpt =0; cpt<el.getChildNodes().getLength(); cpt++)
-                        {
-                                Node a =el.getChildNodes().item(cpt);
-                                if(Filtrer(a))
-                                {
-                                        Afficher(a, doc , rac);
-                                }
-                                else
-                                {
-                                        if(a.getParentNode().getNodeName() == "p" && a.getNodeValue().trim().length()>0)
-                                        {
-                                        Element verso_ele = (Element) doc.createElement("texte");
-                                        rac.appendChild(verso_ele);
-                                        verso_ele.appendChild((doc.createTextNode(a.getNodeValue().trim())));
-                                        }
-                                }
-                        }
+                    Afficher(a, doc , rac);
                 }
+                else
+                {
+                    if(a.getParentNode().getNodeName() == "p" && a.getNodeValue().trim().length()>0)
+                    {
+                        Element verso_ele = (Element) doc.createElement("texte");
+                        rac.appendChild(verso_ele);
+                        Matcher matcher = Pattern.compile("^\\s+"+"(.+)").matcher(a.getNodeValue());
 
+                        if(matcher.find())
+                            verso_ele.appendChild((doc.createTextNode(matcher.group(1))));
+                        else
+                            verso_ele.appendChild((doc.createTextNode(a.getNodeValue())));
+                    }
+                }
+            }
         }
+
+    }
 //******************************************************************************************************
 
  public void transform (String source, String cible, String nom_fichier) throws Exception{
