@@ -1,6 +1,9 @@
+import org.w3c.dom.DOMImplementation;
 import org.w3c.dom.Document;
+import org.w3c.dom.DocumentType;
 import org.w3c.dom.Element;
 
+import javax.xml.transform.OutputKeys;
 import java.util.LinkedList;
 
 public class Transformateur_Fich1 extends Transformateur_FichTxt {
@@ -61,4 +64,5 @@ public class Transformateur_Fich1 extends Transformateur_FichTxt {
         }
         return racine;
     }
+
 }

@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87191ab6-e56e-4ec8-a866-454ff5b9c2bd" name="Default" comment="">
+    <list default="true" id="87191ab6-e56e-4ec8-a866-454ff5b9c2bd" name="Default" comment="Last Version">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiches1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fiches1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet_Documents_Structures/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projet_Documents_Structures/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet_Documents_Structures/Transformateur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projet_Documents_Structures/Transformateur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet_Documents_Structures/Transformateur_Fich1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projet_Documents_Structures/Transformateur_Fich1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet_Documents_Structures/Transformateur_FichTxt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projet_Documents_Structures/Transformateur_FichTxt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet_Documents_Structures/Transformateur_M457.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projet_Documents_Structures/Transformateur_M457.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet_Documents_Structures/Transformateur_M674.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projet_Documents_Structures/Transformateur_M674.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Transformateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transformateur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Transformateur_Fich1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transformateur_Fich1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Transformateur_FichTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transformateur_FichTxt.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,85 +25,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="M674.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examen/examen_bis/M674.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Transformateur_M457.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Transformateur_M457.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="84" column="60" selection-start-line="84" selection-start-column="60" selection-end-line="84" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Transformateur.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Transformateur.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Transformateur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="87" column="58" selection-start-line="87" selection-start-column="58" selection-end-line="87" selection-end-column="58" />
+            <state relative-caret-position="221">
+              <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Transformateur_BoiteDialogue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Transformateur_BoiteDialogue.java">
+      <file leaf-file-name="Transformateur_Fich2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Transformateur_Fich2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-629">
-              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fonction_Builder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Fonction_Builder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Transformateur_M674.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Transformateur_M674.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="17">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fiches1.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fiches1.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="fiches2.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fiches2.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="neruda.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/neruda.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -100,9 +49,72 @@
       <file leaf-file-name="Transformateur_FichTxt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Transformateur_FichTxt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
-              <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
+            <state relative-caret-position="205">
+              <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
+              <folding>
+                <element signature="e#4501#4502#0" expanded="true" />
+                <element signature="e#4546#4547#0" expanded="true" />
+              </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transformateur_Fich1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Transformateur_Fich1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="javafx.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javafx.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="fiches2.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fiches2.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="fiches1.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fiches1.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transformable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Transformable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="renault.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/renault.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-234" />
           </provider>
         </entry>
       </file>
@@ -127,8 +139,10 @@
         <option value="$PROJECT_DIR$/src/Transformateur_M674.java" />
         <option value="$PROJECT_DIR$/examen/examen_bis/M674.xml" />
         <option value="$PROJECT_DIR$/src/Transformateur_M457.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Transformateur_FichTxt.java" />
+        <option value="$PROJECT_DIR$/src/Transformateur_Fich1.java" />
         <option value="$PROJECT_DIR$/src/Transformateur.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -240,7 +254,10 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examen/M457.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Main.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Transformateur_M457.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Transformateur_M674.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -248,6 +265,27 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/fiches1.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/fiches2.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/javafx.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/neruda.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Projet_Documents_Structures/Fiche.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Projet_Documents_Structures/Fonction_Builder.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Projet_Documents_Structures/Generateur_Sortie.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Projet_Documents_Structures/Main.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Projet_Documents_Structures/Transformable.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Projet_Documents_Structures/Transformateur.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Projet_Documents_Structures/Transformateur_BoiteDialogue.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Projet_Documents_Structures/Transformateur_Fich1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Projet_Documents_Structures/Transformateur_Fich2.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Projet_Documents_Structures/Transformateur_FichTxt.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Projet_Documents_Structures/Transformateur_M457.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Projet_Documents_Structures/Transformateur_M674.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Projet_Documents_Structures/Transformateur_PoemeTxt.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Projet_Documents_Structures/Transformateur_Renault.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Projet_Documents_Structures/desktop.ini</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sortie1.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/sortie2.xml</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -412,10 +450,18 @@
       <option name="presentableId" value="Default" />
       <updated>1562619667926</updated>
     </task>
+    <task id="LOCAL-00001" summary="Avant merge">
+      <created>1562708625088</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562708625088</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3175000" />
+    <option name="totallyTimeSpent" value="4008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -423,7 +469,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32857144" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -431,11 +477,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32857144" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18081991" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18081991" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -474,104 +520,31 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Avant merge" />
+    <MESSAGE value="Last Version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last Version" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Transformateur_M674.java</url>
-          <line>52</line>
+          <line>53</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Transformateur_M674.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Transformateur_M674.java</url>
           <line>54</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Transformateur_M674.java</url>
-          <line>56</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Transformateur_M674.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Transformateur_M674.java</url>
-          <line>57</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Transformateur_M674.java</url>
-          <line>58</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Transformateur_M674.java</url>
-          <line>60</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Transformateur_M674.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fiches2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fiches1.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examen/examen_bis/M674.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transformateur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="111" column="71" selection-start-line="111" selection-start-column="71" selection-end-line="111" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java" />
-    <entry file="file://$PROJECT_DIR$/fichiers-de-sortie_et-DTD/renault.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java" />
     <entry file="file://$PROJECT_DIR$/fichiers-de-sortie_et-DTD/renault.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -742,26 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transformateur_Fich2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transformateur_Fich1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Fonction_Builder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -773,13 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transformable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="96" />
         </state>
       </provider>
     </entry>
@@ -795,8 +741,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Transformateur_M674.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="170">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -806,7 +752,7 @@
     <entry file="file://$PROJECT_DIR$/examen/examen_bis/M674.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-end-line="2" />
+          <caret line="1" column="39" selection-start-line="1" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -814,7 +760,7 @@
     <entry file="file://$PROJECT_DIR$/src/Transformateur_M457.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="477">
-          <caret line="84" column="60" selection-start-line="84" selection-start-column="60" selection-end-line="84" selection-end-column="60" />
+          <caret line="85" column="60" selection-start-line="85" selection-start-column="60" selection-end-line="85" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -830,22 +776,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rez.xmlM457.xml" />
-    <entry file="file://$PROJECT_DIR$/javafx.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1002" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Transformateur_BoiteDialogue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-629">
@@ -853,10 +784,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/neruda.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sortie1.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sortie2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Transformateur_Fich2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Transformateur_Fich1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Transformateur_FichTxt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
+          <folding>
+            <element signature="e#4501#4502#0" expanded="true" />
+            <element signature="e#4546#4547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javafx.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fiches2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Transformateur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="87" column="58" selection-start-line="87" selection-start-column="58" selection-end-line="87" selection-end-column="58" />
+        <state relative-caret-position="221">
+          <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Transformable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renault.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fiches1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
         </state>
       </provider>
     </entry>

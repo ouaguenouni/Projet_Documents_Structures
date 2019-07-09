@@ -1,14 +1,12 @@
 import org.w3c.dom.DOMImplementation;
 import org.w3c.dom.Document;
+import org.w3c.dom.DocumentType;
 import org.w3c.dom.Element;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.OutputKeys;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerException;
-import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.*;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.File;
@@ -25,6 +23,7 @@ public abstract class Transformateur implements Transformable {
     protected String source;
     protected String cible;
     protected String nom;
+    protected Transformer transformer;
 
     @Override
     public void transform(String source, String cible, String nom_fichier) throws FileNotFoundException {
@@ -37,6 +36,12 @@ public abstract class Transformateur implements Transformable {
     }
 
     protected Transformateur(String source, String cible, String nom_fichier) {
+        final TransformerFactory transformerFactory = TransformerFactory.newInstance();
+        try {
+            transformer = transformerFactory.newTransformer();
+        } catch (TransformerConfigurationException e) {
+            e.printStackTrace();
+        }
         this.source = source;
         this.cible = cible;
         this.nom = nom_fichier;
@@ -82,6 +87,7 @@ public abstract class Transformateur implements Transformable {
     public void genrerTransformation() {
         final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
+
             final DocumentBuilder builder = factory.newDocumentBuilder();
             DOMImplementation DMIP = builder.getDOMImplementation();
 
@@ -96,10 +102,13 @@ public abstract class Transformateur implements Transformable {
 
             Transformateur T = Transformateur.transformateurBuilder(source, cible, nom);
             T.insererDansCible(document, document.createElement("R"));
-
-
-            final TransformerFactory transformerFactory = TransformerFactory.newInstance();
-            final Transformer transformer = transformerFactory.newTransformer();
+            DOMImplementation domImpl = document.getImplementation();
+            if(cible.endsWith("fiches1.xml")) {
+                DocumentType doctype = domImpl.createDocumentType("doctype",
+                        null,
+                        "fiche.dtd");
+                transformer.setOutputProperty(OutputKeys.DOCTYPE_SYSTEM, doctype.getSystemId());
+            }
             final DOMSource source = new DOMSource(document);
 
             final StreamResult sortie = new StreamResult(new File(cible));
