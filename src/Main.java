@@ -84,7 +84,8 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception {
-        Main.Parcour(new File("C:\\Users\\mohamed\\Desktop\\PFE\\Projet_Documents_Structures\\examen"));
+       // Main.Parcour(new File("C:\\Users\\mohamed\\Desktop\\PFE\\Projet_Documents_Structures\\examen"));
+        Main.Parcour(new File("C:\\GITHUB\\Projet_Documents_Structures\\examen"));
         for (String s:source_cible.keySet()){
             String[] parts = s.replace("?","").split("\\\\");
             String nom = parts[parts.length-1];
