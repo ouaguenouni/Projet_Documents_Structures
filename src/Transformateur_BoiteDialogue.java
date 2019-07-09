@@ -51,7 +51,7 @@ public class Transformateur_BoiteDialogue extends Transformateur {
         final DocumentBuilder builder;
         final Document document;
         builder = factory.newDocumentBuilder();
-        document = builder.parse(new File("C:\\Users\\Geekzone\\Desktop\\Projet_Documents_Structures\\examen\\examen_bis\\poeme\\fiches\\renault\\javafx\\boitedialog.fxml"));
+        document = builder.parse(new File(source));
         final Element racine = document.getDocumentElement();
         Element E = D.createElement("Racine");
         E.setAttribute("xmlns:fx", "http://javafx.com/fxml");

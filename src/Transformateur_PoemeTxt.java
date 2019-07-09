@@ -69,7 +69,7 @@ public class Transformateur_PoemeTxt implements Transformable {
         }
 
         DOMSource ds = new DOMSource(doc);
-        StreamResult res = new StreamResult(new File(cible+nom));
+        StreamResult res = new StreamResult(new File(cible));
         Transformer tr = null;
         try {
             tr = TransformerFactory.newInstance().newTransformer();

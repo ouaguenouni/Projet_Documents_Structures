@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 public class Fonction_Builder {
     //Ici on programme un builder de transformables
 
-    public  Transformable transformableBuilder(String source,String cible, String nom) throws FileNotFoundException {
+    public static Transformable transformableBuilder(String source,String cible, String nom) throws FileNotFoundException {
         Transformable T = null;
         if(Transformateur.noms_fichs_pris.contains(nom))
         {
@@ -17,7 +17,15 @@ public class Fonction_Builder {
             //La méthode : transform(String source, String cible, String nom_fichier) throws FileNotFoundException
             //Faut aussi que ta classe implémente Transformable
             switch(nom){
-
+                case "M674.xml":
+                    T = new Transformateur_M674();
+                    break;
+                case "M457.xml":
+                    T = new Transformateur_M457();
+                    break;
+                case "poeme.txt":
+                    T = new Transformateur_PoemeTxt();
+                    break;
             }
         }
         return T;

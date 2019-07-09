@@ -29,7 +29,7 @@ public class Main {
                     Parcour(fils);
                 }
                 else
-                    System.out.println(liste[i]);
+                    pretraitementFichier(s);
             }
         } else {
             System.err.println("Nom de repertoire invalide");
@@ -37,37 +37,40 @@ public class Main {
     }
 
     //Ici on va essayer de remplir le dictionnaires (Source -> Cible)
-    public HashMap <String, String> source_cible = new HashMap<>();
+    public static HashMap <String, String> source_cible = new HashMap<>();
 
 
 
 
 
-    public void pretraitementFichier(File source){
+    public static void pretraitementFichier(String source){
         //Ici il reste a construire pour chaque source sa destination
-        File Sortie = new File("fichiers-de-sortie");
+        File Sortie = new File(source);
+        String[] parts = source.split("\\\\");
+        String nom = parts[parts.length-1];
+        System.out.println(nom);
         //Donc la source ça serra source.getAbsolutePath ensuite faut manipuler le chemin de la source pour générer le chemin de la cible
-        switch (source.getName())
+        switch (nom)
         {
             case "fiches.txt":
                 //Ici il faut construire deux lignes dans chaque dictionnaire fiches.txt1 fiches.txt2
-                source_cible.put(source.getAbsolutePath()+"fiches.txt1","fiches1.xml");
-                source_cible.put("fiches.txt2","fiches2.xml");
+                source_cible.put(source,"fiches1.xml");
+                source_cible.put(source+"?","fiches2.xml");
                 break;
-            case "M674.txt":
-                source_cible.put("M674.xml","sortie1.xml");
+            case "M674.xml":
+                source_cible.put(source,"sortie1.xml");
                 break;
-            case "boitedialog.txt":
-                source_cible.put("boitedialog.fxml","javafx.xml");
+            case "boitedialog.fxml":
+                source_cible.put(source,"javafx.xml");
                 break;
             case "renault.txt":
-                source_cible.put("renault.html","renault.xml");
+                source_cible.put(source,"renault.xml");
                 break;
-            case "M457.txt":
-                source_cible.put("M457.xml","sortie2.xml");
+            case "M457.xml":
+                source_cible.put(source,"sortie2.xml");
                 break;
             case "poeme.txt":
-                source_cible.put("poeme.txt","neruda.xml");
+                source_cible.put(source,"neruda.xml");
                 break;
         }
 
@@ -81,11 +84,14 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception {
-        Parcour(new File("C:\\Users\\mohamed\\Desktop\\PFE\\Projet_Documents_Structures\\examen"));
-        Transformable TM = new Transformateur_M457();
-        TM.transform("C:\\Users\\mohamed\\Desktop\\PFE\\Projet_Documents_Structures\\examen\\M457.xml",
-                "C:\\Users\\mohamed\\Desktop\\PFE\\Projet_Documents_Structures\\Rez.xml",
-                "M457.xml");
+        Main.Parcour(new File("C:\\Users\\mohamed\\Desktop\\PFE\\Projet_Documents_Structures\\examen"));
+        for (String s:source_cible.keySet()){
+            String[] parts = s.replace("?","").split("\\\\");
+            String nom = parts[parts.length-1];
+            Transformable T = Fonction_Builder.transformableBuilder(s.replace("?",""),source_cible.get(s),nom);
+            T.transform( s.replace("?",""),source_cible.get(s),nom);
+            System.out.println("Fin de transformation de : " + s.replace("?","")+" : "+source_cible.get(s));
+        }
     }
 
     }

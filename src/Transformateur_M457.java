@@ -10,12 +10,15 @@ import javax.xml.transform.stream.StreamResult;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Transformateur_M457 implements Transformable {
 
     public static boolean Filtrer (Node noeud){
         return (noeud.getNodeName() != "#text");
     }
+
 
     public static void Afficher(Node noeud, Document doc, Element rac) throws Exception
     {
@@ -35,75 +38,54 @@ public class Transformateur_M457 implements Transformable {
                     {
                         Element verso_ele = (Element) doc.createElement("texte");
                         rac.appendChild(verso_ele);
-                        verso_ele.appendChild((doc.createTextNode(a.getNodeValue().trim())));
+                        Matcher matcher = Pattern.compile("^\\s+"+"(.+)").matcher(a.getNodeValue());
+
+                        if(matcher.find())
+                            verso_ele.appendChild((doc.createTextNode(matcher.group(1))));
+                        else
+                            verso_ele.appendChild((doc.createTextNode(a.getNodeValue())));
                     }
                 }
             }
         }
 
     }
-    //******************************************************************************************************
-    public void transform(String source, String cible, String nom) throws FileNotFoundException {
 
+
+    //******************************************************************************************************
+
+
+    public void transform(String source, String cible, String nom) throws Exception {
+        // String xmlFile = "C:/Users/dell/Desktop/M457.xml";
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 
         factory.setValidating (false);
-        try {
-            factory.setFeature ("http://xml.org/sax/features/namespaces", false);
-            factory.setFeature ("http://xml.org/sax/features/validation", false);
-            factory.setFeature ("http://apache.org/xml/features/nonvalidating/load-dtd-grammar", false);
-            factory.setFeature ("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
-        } catch (ParserConfigurationException e) {
-            e.printStackTrace();
-        }
+        factory.setFeature ("http://xml.org/sax/features/namespaces", false);
+        factory.setFeature ("http://xml.org/sax/features/validation", false);
+        factory.setFeature ("http://apache.org/xml/features/nonvalidating/load-dtd-grammar", false);
+        factory.setFeature ("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
         factory.setSchema(null);
 
-        DocumentBuilder parseur = null;
-        try {
-            parseur = factory.newDocumentBuilder();
-        } catch (ParserConfigurationException e) {
-            e.printStackTrace();
-        }
-        Document document = null;
-        try {
-            document = parseur.parse(source);
-        } catch (SAXException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        DocumentBuilder parseur = factory.newDocumentBuilder();
+        Document document = parseur.parse(source);
         Element liste = document.getDocumentElement();
 
-
+        //************************Sortie******************************************
         DOMImplementation domimp = parseur.getDOMImplementation();
         DocumentType dtd = domimp.createDocumentType("TEI_S",null,"dom.dtd");
         Document doc = domimp.createDocument(null,"TEI_S",dtd);
         doc.setXmlStandalone(true);
         Element rac = doc.getDocumentElement();
 
-        Element M = (Element) doc.createElement("M674.xml");
+        Element M = (Element) doc.createElement("M457.xml");
         rac.appendChild(M);
-        try {
-            Afficher(liste,  doc, M);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        Afficher(liste,  doc, M);
 
         DOMSource ds = new DOMSource(doc);
-        StreamResult res = new StreamResult(new File(cible+nom));
-        Transformer tr = null;
-        try {
-            tr = TransformerFactory.newInstance().newTransformer();
-        } catch (TransformerConfigurationException e) {
-            e.printStackTrace();
-        }
-        tr.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
+        StreamResult res = new StreamResult(new File(cible));
+        Transformer tr = TransformerFactory.newInstance().newTransformer();tr.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
         tr.setOutputProperty(OutputKeys.INDENT, "yes");
         tr.setOutputProperty(OutputKeys.DOCTYPE_SYSTEM, "dom.dtd");
-        try {
-            tr.transform(ds, res);
-        } catch (TransformerException e) {
-            e.printStackTrace();
-        }
+        tr.transform(ds, res);
     }
 }

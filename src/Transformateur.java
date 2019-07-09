@@ -19,7 +19,7 @@ public abstract class Transformateur implements Transformable {
 
     //Liste des fichiers pris en charge par mon transformateur
 
-    public static List<String> noms_fichs_pris = Arrays.asList("fiches.txt1", "fiches.txt2", "boitedialog","renault");
+    public static List<String> noms_fichs_pris = Arrays.asList("fiches.txt",  "boitedialog.fxml","renault.html");
 
     protected String source;
     protected String cible;
@@ -50,15 +50,18 @@ public abstract class Transformateur implements Transformable {
             case "boitedialog.fxml":
                 T = new Transformateur_BoiteDialogue(source, cible, nom_fichier);
                 break;
-            case "fiches.txt1":
-                T = new Transformateur_Fich1(source, cible, nom_fichier);
-                ((Transformateur_FichTxt) T).lireFichier(source);
+            case "fiches.txt":
+                if(cible.equals("fiches1.xml"))
+                {
+                    T = new Transformateur_Fich1(source, cible, nom_fichier);
+                    ((Transformateur_FichTxt) T).lireFichier(source);
+                }
+                else
+                {
+                    T = new Transformateur_Fich2(source, cible, nom_fichier);
+                    ((Transformateur_FichTxt) T).lireFichier(source);
+                }
                 break;
-            case "fiches.txt2":
-                T = new Transformateur_Fich2(source, cible, nom_fichier);
-                ((Transformateur_FichTxt) T).lireFichier(source);
-                break;
-
         }
         return T;
     }
