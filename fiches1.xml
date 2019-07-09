@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FICHES>
+    <FICHE id="1">
+        <BE>BE :  PNR 12/2011 – 04/06/2011</BE>
+        <AU>AU :  AUTEUR Nassim, AUTEUR Abdellatif, AUTEUR Rabia, AUTEUR Nacira, AUTEUR Meriem, AUTEUR Yamina  </AU>
+        <TY>TY :  Fiche terminologique arabe-français : concepts médicaux</TY>
+        <Langue id="AR">
+            <DF>DF :  حرمان من حاسة السمع منذ الولادة إلى درجة تجعل الكلام المنطوق مستحيلا مع أو بدون المعينات السمعية. 	</DF>
+            <NT>NT :  جمال الخطيب، المرجع السابق، ص 18.	</NT>
+            <PH>PH :  جمال الخطيب، مقدمة في الإعاقة السمعية، دار الفكر للطباعة والنشر، عمان، 1998، الطبعة الأولى، 303 ص، ص 27.	</PH>
+            <RF>RF | DF : VE :  محمد السيد حلاوة، الرعاية الاجتماعية للطفل الأصم، المكتب العلمي للنشر، الإسكندرية، 1996، ص 293، ص 32.</RF>
+            <VE>VE :  الصمم	</VE>
+        </Langue>
+        <Langue id="FR">
+            <SD>SD :  ORL; Audiologie; Surdité</SD>
+            <DO>DO :  Médecine &amp; Orthophonie</DO>
+            <DF>DF :  LAFON J. C., Les Enfants déficients auditifs, Simep, 1985, 207 p., p. 14. 	</DF>
+            <NT>NT :  LAFON J. C., loc. cit., p. 8.	</NT>
+            <PH>PH :  PIALOUX  P., VALTAT M., FREYSS G., LEGENT F., précis d'orthophonie, Masson, Paris, 1975, 300 p., p. 252.	</PH>
+            <RF>RF | VE :  BUSQUET D., MOTTIER Ch., L'enfant sourd. Développement psychologique et rééducation, Éditions    J. B. Baillière, Orthophonie 7, 1978, 264 p., p. 11.</RF>
+            <VE>VE :  Surdité	</VE>
+        </Langue>
+    </FICHE>
+    <FICHE id="2">
+        <BE>BE :  PNR 12/2011 – 04/06/2011</BE>
+        <AU>AU :  AUTEUR Nassim, AUTEUR Abdellatif, AUTEUR Rabia, AUTEUR Nacira, AUTEUR Meriem, AUTEUR Yamina </AU>
+        <TY>TY :  Fiche terminologique arabe-français : concepts médicaux</TY>
+        <Langue id="AR"/>
+        <Langue id="FR">
+            <SD>SD :  ORL; Audiologie; Surdité</SD>
+            <DO>DO :  Médecine &amp; Orthophonie</DO>
+            <DF>DF :  BUSQUET D., MOTTIER Ch., loc. cit., J.B. Baillière, Orthophonie, 7, 1978, 264  p., p. 9.	</DF>
+            <NT>NT :  LAFON J. C., Les Enfants déficients auditifs, Simep, 1985, 207 p., p. 75.	</NT>
+            <PH>PH :  PIALOUX  P., VALTAT M., FREYSS G., LEGENT F., Précis d'orthophonie, Masson, Paris, 1975, 300 p., p. 253.	</PH>
+            <RF>RF | VE :  BUSQUET D., MOTTIER Ch., L'enfant sourd. Développement psychologique et rééducation,                   J. B. Baillière, Orthophonie, 7, 1978, 264 p., p. 11.</RF>
+            <VE>VE :  Surdité	</VE>
+        </Langue>
+    </FICHE>
+    <FICHE id="3">
+        <BE>BE :  PNR 12/2011 – 04/06/2011</BE>
+        <AU>AU :  AUTEUR Nassim, AUTEUR Abdellatif, AUTEUR Rabia, AUTEUR Nacira, AUTEUR Meriem, AUTEUR Yamina </AU>
+        <TY>TY :  Fiche terminologique arabe-français : concepts médicaux</TY>
+        <Langue id="AR">
+            <DF>DF :  مرض يصيب الدماغ و يقلل القدرة على التحكم في الأعصاب، يصيب غالبا البالغين ما بين الخمسين و السبعين. من أعراضه الرعاش، بطء الحركة، التصلب، و فقدان الاتزان.  	</DF>
+            <RF>RF | NT : PH : DF : VE :  عباس محمود عوض، علم النفس الفسيولوجي، الدار الجامعية للمطبوعات والنشر، 1981،231 ص،  ص 72.   </RF>
+            <NT>NT :  يعتمد علاج الباركينسون على استعمال الدوبامين.	</NT>
+            <PH>PH :  الرجفة الباركينسونية.	</PH>
+            <VE>VE :  مرض الباركينسون	</VE>
+        </Langue>
+        <Langue id="FR">
+            <SD>SD :  ORL; Audiologie; Surdité</SD>
+            <DO>DO :  Médecine &amp; Orthophonie</DO>
+            <DF>DF :  AUZOU P., OZSANCAK C., loc. cit, 2005,  p. 19.	</DF>
+            <NT>NT :  AUZOU P., OZSANCAK C., loc. cit, 2005,  p. 27.   	</NT>
+            <PH>PH :  AUZOU P., OZSANCAK C., loc. cit, 2005,  p. 22.   	</PH>
+            <RF>RF | VE :  AUZOU P., OZSANCAK C., Les troubles de la parole et de la déglutition dans la maladie de Parkinson, Solal, France, 2005, 432 p., p. 10.</RF>
+            <VE>VE :  Maladie de PARKINSON 	</VE>
+        </Langue>
+    </FICHE>
+    <FICHE id="4">
+        <BE>BE :  PNR 12/2011 – 04/06/2011</BE>
+        <AU>AU :  AUTEUR Nassim, AUTEUR Abdellatif, AUTEUR Rabia, AUTEUR Nacira </AU>
+        <TY>TY :  Fiche terminologique arabe-français : concepts médicaux</TY>
+        <Langue id="AR">
+            <DF>DF :  كل العيوب الصوتية البسيطة (مفردة) التي تستمر إلى سن يتوقع لأدائها أن يتم بشكل صحيح.	</DF>
+            <NT>NT :  جمال الخطيب، المرجع السابق، ص 18.	</NT>
+            <PH>PH :  التدريس الأكاديمي لنصيرة بشكل ، لوحدة اضطرا بات النطق لليسانس الأرطفونيا، قسم علم النفس و علوم التربية ، جامعة الجزائر، 1997-1998، الترجمة باللغة الفرنسية لكتاب درس علم النطق العربي، ديوان المطبوعات الجامعية، الجزائر، 111 ص، ص 74،1984، دروس مترجمة إلى اللغة العربية.	</PH>
+            <RF>RF | DF : VE :  م. ناصر القطبي ، الرئيس السابق ل ال IALP : “International Association of Logopaedics and Phoniatrics” ، 1995،عضو اللجنة العلمية لمجلة   :« FOLIA PHONIATRICA ET LOGOPAEDICA »  ،   المستشفى المتخصص لجامعة عين الشمس، وحدة أمراض الصوت، ، القاهرة، مصر، البريد الالكتروني ل 29 جوان 2003، الساعة: 20 و19 دقيقة. </RF>
+            <VE>VE :  لثغ بين الثنايا؛ لثغة	</VE>
+        </Langue>
+        <Langue id="FR">
+            <SD>SD :  ORL; Audiologie; Surdité</SD>
+            <DO>DO :  Médecine &amp; Orthophonie</DO>
+            <DF>DF :  Trouble articulatoire fonctionnel qui touche le point d’articulation.	</DF>
+            <NT>NT :  AUTEUR AUTEUR, loc. cit., 1992,  p. 189.	</NT>
+            <PH>PH :  Sigmatisme interdental par substitution.	</PH>
+            <RF>RF | PH : DF : VE :  AUTEUR AUTEUR, AUTEUR de cas, Office des Publications Universitaires, Alger, 1992, 300 p., p. 189 ; AUTEUR AUTEUR, loc. cit., 1984,  p. 74.</RF>
+            <VE>VE :  Sigmatisme interdental	</VE>
+        </Langue>
+    </FICHE>
+</FICHES>
