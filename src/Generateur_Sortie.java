@@ -16,6 +16,8 @@ import java.io.IOException;
 public class Generateur_Sortie {
 
 
+
+
     public static void main(String str[]) throws IOException, SAXException {
         final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
@@ -41,5 +43,7 @@ public class Generateur_Sortie {
             e.printStackTrace();
         }
     }
+
+
 
 }

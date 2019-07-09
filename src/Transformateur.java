@@ -12,11 +12,28 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Arrays;
+import java.util.List;
 
-public abstract class Transformateur {
+public abstract class Transformateur implements Transformable {
+
+    //Liste des fichiers pris en charge par mon transformateur
+
+    public static List<String> noms_fichs_pris = Arrays.asList("fiches.txt1", "fiches.txt2", "boitedialog","renault");
+
     protected String source;
     protected String cible;
     protected String nom;
+
+    @Override
+    public void transform(String source, String cible, String nom_fichier) throws FileNotFoundException {
+        Transformateur T = Transformateur.transformateurBuilder(source,
+                cible,
+                nom_fichier);
+        T.genrerTransformation();
+
+
+    }
 
     protected Transformateur(String source, String cible, String nom_fichier) {
         this.source = source;
@@ -27,17 +44,17 @@ public abstract class Transformateur {
     public static Transformateur transformateurBuilder(String source, String cible, String nom_fichier) throws FileNotFoundException {
         Transformateur T = null;
         switch (nom_fichier) {
-            case "Renault":
+            case "renault.html":
                 T = new Transformateur_Renault(source, cible, nom_fichier);
                 break;
-            case "BoiteDeDialogue":
+            case "boitedialog.fxml":
                 T = new Transformateur_BoiteDialogue(source, cible, nom_fichier);
                 break;
-            case "Fich1":
+            case "fiches.txt1":
                 T = new Transformateur_Fich1(source, cible, nom_fichier);
                 ((Transformateur_FichTxt) T).lireFichier(source);
                 break;
-            case "Fich2":
+            case "fiches.txt2":
                 T = new Transformateur_Fich2(source, cible, nom_fichier);
                 ((Transformateur_FichTxt) T).lireFichier(source);
                 break;
@@ -47,10 +64,7 @@ public abstract class Transformateur {
     }
 
     public static void main(String[] str) throws FileNotFoundException {
-        Transformateur T = Transformateur.transformateurBuilder("C:\\Users\\Geekzone\\Desktop\\Projet_Documents_Structures\\examen\\examen_bis\\poeme\\fiches\\fiches.txt",
-                "C:\\Users\\Geekzone\\Desktop\\Projet_Documents_Structures\\Rez.xml",
-                "Fich");
-        T.genrerTransformation();
+
     }
 
     public void setSourceCible(String source, String cible) {

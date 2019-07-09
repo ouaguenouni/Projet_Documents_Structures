@@ -1,3 +1,4 @@
+import jdk.jfr.TransitionFrom;
 import org.w3c.dom.*;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -8,6 +9,7 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.*;
+import java.util.HashMap;
 
 public class Main {
 
@@ -144,8 +146,40 @@ public class Main {
         }
     }
 
-    public static void main(String[] args) throws Exception {
+    //Ici on va essayer de remplir le dictionnaires (Source -> Cible)
+    public HashMap <String, String> source_cible = new HashMap<>();
 
+    public void pretraitementFichier(File source){
+        //Ici il reste a construire pour chaque source sa destination
+        //Donc la source ça serra source.getAbsolutePath ensuite faut manipuler le chemin de la source pour générer le chemin de la cible
+        switch (source.getName())
+        {
+            case "fiches.txt":
+                //Ici il faut construire deux lignes dans chaque dictionnaire fiches.txt1 fiches.txt2
+                break;
+            case "M674.txt":
+                break;
+            case "boitedialog.txt":
+                break;
+            case "renault.txt":
+                break;
+            case "M457.txt":
+                break;
+            case "poeme.txt":
+                break;
+        }
+
+    }
+
+
+    //Ensuite on applique les fonctions
+    public void genererCible(File source) throws FileNotFoundException {
+        String cible = source_cible.get(source.getAbsolutePath());
+        Transformable T = Transformateur.transformateurBuilder(source.getAbsolutePath(),cible,source.getName());
+    }
+
+    public static void main(String[] args) throws Exception {
+        Parcour(new File("C:\\Users\\mohamed\\Desktop\\PFE\\Projet_Documents_Structures\\examen"));
         //poeme();
         //m674();
 
