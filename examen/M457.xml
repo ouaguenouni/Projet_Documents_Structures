@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="Windows-1252"?>
 <!DOCTYPE TEI SYSTEM "TEIFrantext.dtd">
 <TEI>
 	<teiHeader>
@@ -17,7 +17,7 @@
 					<addrLine>FRANCE</addrLine>
 				</address>
 				<availability status="free">
-					<p>Dans un cadre de recherche ou d'enseignement
+					<p>Dans un cadre de recherche ou d'enseignement</p>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
@@ -415,7 +415,7 @@ arborer sur nos tours ses couleurs menaçantes.<lb/>
 Nous ne les verrons plus, le front ceint de lauriers,<lb/>
 troublant de leur aspect les fêtes du génie,<lb/>
 chez *Melpomène et *Polymnie<lb/>
-usurper une place où siégeaient nos guerriers.<lb/>&
+usurper une place où siégeaient nos guerriers.<lb/>
 Nous ne les verrons plus nous accorder par grace<lb/>
 une part des trésors flottans sur nos sillons.<lb/>
 Soyons unis ; jamais leurs bataillons<lb/>
