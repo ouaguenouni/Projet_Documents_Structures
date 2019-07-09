@@ -64,7 +64,7 @@ public class Main {
                 source_cible.put(source,"javafx.xml");
                 break;
             case "renault.html":
-                source_cible.put(source,"renault.xml");
+                source_cible.put(source,"renault.html");
                 break;
             case "M457.xml":
                 source_cible.put(source,"sortie2.xml");
@@ -84,7 +84,7 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception {
-       Main.Parcour(new File("C:\\Users\\mohamed\\Desktop\\PFE\\Projet_Documents_Structures\\examen"));
+       Main.Parcour(new File(args[0]));
         //Main.Parcour(new File("C:\\GITHUB\\Projet_Documents_Structures\\examen"));
         for (String s:source_cible.keySet()){
             String[] parts = s.replace("?","").split("\\\\");

@@ -1,77 +1,77 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <FICHES>
     <FICHE id="1">
-        <SD>SD :  ORL; Audiologie; Surdité</SD>
-        <BE>BE :  PNR 12/2011 – 04/06/2011</BE>
+        <SD>SD :  ORL; Audiologie; SurditÃ©</SD>
+        <BE>BE :  PNR 12/2011 â€“ 04/06/2011</BE>
         <AU>AU :  AUTEUR Nassim, AUTEUR Abdellatif, AUTEUR Rabia, AUTEUR Nacira, AUTEUR Meriem, AUTEUR Yamina  </AU>
-        <TY>TY :  Fiche terminologique arabe-français : concepts médicaux</TY>
-        <DO>DO :  Médecine &amp; Orthophonie</DO>
+        <TY>TY :  Fiche terminologique arabe-franÃ§ais : concepts mÃ©dicaux</TY>
+        <DO>DO :  MÃ©decine &amp; Orthophonie</DO>
         <Langue id="AR">
-            <DF>DF :  حرمان من حاسة السمع منذ الولادة إلى درجة تجعل الكلام المنطوق مستحيلا مع أو بدون المعينات السمعية. 	</DF>
-            <NT>NT :  جمال الخطيب، المرجع السابق، ص 18.	</NT>
-            <PH>PH :  جمال الخطيب، مقدمة في الإعاقة السمعية، دار الفكر للطباعة والنشر، عمان، 1998، الطبعة الأولى، 303 ص، ص 27.	</PH>
-            <RF>RF | DF : VE :  محمد السيد حلاوة، الرعاية الاجتماعية للطفل الأصم، المكتب العلمي للنشر، الإسكندرية، 1996، ص 293، ص 32.</RF>
-            <VE>VE :  الصمم	</VE>
+            <DF>DF :  Ø­Ø±Ù…Ø§Ù† Ù…Ù† Ø­Ø§Ø³Ø© Ø§Ù„Ø³Ù…Ø¹ Ù…Ù†Ø° Ø§Ù„ÙˆÙ„Ø§Ø¯Ø© Ø¥Ù„Ù‰ Ø¯Ø±Ø¬Ø© ØªØ¬Ø¹Ù„ Ø§Ù„ÙƒÙ„Ø§Ù… Ø§Ù„Ù…Ù†Ø·ÙˆÙ‚ Ù…Ø³ØªØ­ÙŠÙ„Ø§ Ù…Ø¹ Ø£Ùˆ Ø¨Ø¯ÙˆÙ† Ø§Ù„Ù…Ø¹ÙŠÙ†Ø§Øª Ø§Ù„Ø³Ù…Ø¹ÙŠØ©. 	</DF>
+            <NT>NT :  Ø¬Ù…Ø§Ù„ Ø§Ù„Ø®Ø·ÙŠØ¨ØŒ Ø§Ù„Ù…Ø±Ø¬Ø¹ Ø§Ù„Ø³Ø§Ø¨Ù‚ØŒ Øµ 18.	</NT>
+            <PH>PH :  Ø¬Ù…Ø§Ù„ Ø§Ù„Ø®Ø·ÙŠØ¨ØŒ Ù…Ù‚Ø¯Ù…Ø© Ù�ÙŠ Ø§Ù„Ø¥Ø¹Ø§Ù‚Ø© Ø§Ù„Ø³Ù…Ø¹ÙŠØ©ØŒ Ø¯Ø§Ø± Ø§Ù„Ù�ÙƒØ± Ù„Ù„Ø·Ø¨Ø§Ø¹Ø© ÙˆØ§Ù„Ù†Ø´Ø±ØŒ Ø¹Ù…Ø§Ù†ØŒ 1998ØŒ Ø§Ù„Ø·Ø¨Ø¹Ø© Ø§Ù„Ø£ÙˆÙ„Ù‰ØŒ 303 ØµØŒ Øµ 27.	</PH>
+            <RF>RF | DF : VE :  Ù…Ø­Ù…Ø¯ Ø§Ù„Ø³ÙŠØ¯ Ø­Ù„Ø§ÙˆØ©ØŒ Ø§Ù„Ø±Ø¹Ø§ÙŠØ© Ø§Ù„Ø§Ø¬ØªÙ…Ø§Ø¹ÙŠØ© Ù„Ù„Ø·Ù�Ù„ Ø§Ù„Ø£ØµÙ…ØŒ Ø§Ù„Ù…ÙƒØªØ¨ Ø§Ù„Ø¹Ù„Ù…ÙŠ Ù„Ù„Ù†Ø´Ø±ØŒ Ø§Ù„Ø¥Ø³ÙƒÙ†Ø¯Ø±ÙŠØ©ØŒ 1996ØŒ Øµ 293ØŒ Øµ 32.</RF>
+            <VE>VE :  Ø§Ù„ØµÙ…Ù…	</VE>
         </Langue>
         <Langue id="FR">
-            <DF>DF :  LAFON J. C., Les Enfants déficients auditifs, Simep, 1985, 207 p., p. 14. 	</DF>
+            <DF>DF :  LAFON J. C., Les Enfants dÃ©ficients auditifs, Simep, 1985, 207 p., p. 14. 	</DF>
             <NT>NT :  LAFON J. C., loc. cit., p. 8.	</NT>
-            <PH>PH :  PIALOUX  P., VALTAT M., FREYSS G., LEGENT F., précis d'orthophonie, Masson, Paris, 1975, 300 p., p. 252.	</PH>
-            <RF>RF | VE :  BUSQUET D., MOTTIER Ch., L'enfant sourd. Développement psychologique et rééducation, Éditions    J. B. Baillière, Orthophonie 7, 1978, 264 p., p. 11.</RF>
-            <VE>VE :  Surdité	</VE>
+            <PH>PH :  PIALOUX  P., VALTAT M., FREYSS G., LEGENT F., prÃ©cis d'orthophonie, Masson, Paris, 1975, 300 p., p. 252.	</PH>
+            <RF>RF | VE :  BUSQUET D., MOTTIER Ch., L'enfant sourd. DÃ©veloppement psychologique et rÃ©Ã©ducation, Ã‰ditions    J. B. BailliÃ¨re, Orthophonie 7, 1978, 264 p., p. 11.</RF>
+            <VE>VE :  SurditÃ©	</VE>
         </Langue>
     </FICHE>
     <FICHE id="2">
-        <SD>SD :  ORL; Audiologie; Surdité</SD>
-        <BE>BE :  PNR 12/2011 – 04/06/2011</BE>
+        <SD>SD :  ORL; Audiologie; SurditÃ©</SD>
+        <BE>BE :  PNR 12/2011 â€“ 04/06/2011</BE>
         <AU>AU :  AUTEUR Nassim, AUTEUR Abdellatif, AUTEUR Rabia, AUTEUR Nacira, AUTEUR Meriem, AUTEUR Yamina </AU>
-        <TY>TY :  Fiche terminologique arabe-français : concepts médicaux</TY>
-        <DO>DO :  Médecine &amp; Orthophonie</DO>
+        <TY>TY :  Fiche terminologique arabe-franÃ§ais : concepts mÃ©dicaux</TY>
+        <DO>DO :  MÃ©decine &amp; Orthophonie</DO>
         <Langue id="AR"/>
         <Langue id="FR">
-            <DF>DF :  BUSQUET D., MOTTIER Ch., loc. cit., J.B. Baillière, Orthophonie, 7, 1978, 264  p., p. 9.	</DF>
-            <NT>NT :  LAFON J. C., Les Enfants déficients auditifs, Simep, 1985, 207 p., p. 75.	</NT>
-            <PH>PH :  PIALOUX  P., VALTAT M., FREYSS G., LEGENT F., Précis d'orthophonie, Masson, Paris, 1975, 300 p., p. 253.	</PH>
-            <RF>RF | VE :  BUSQUET D., MOTTIER Ch., L'enfant sourd. Développement psychologique et rééducation,                   J. B. Baillière, Orthophonie, 7, 1978, 264 p., p. 11.</RF>
-            <VE>VE :  Surdité	</VE>
+            <DF>DF :  BUSQUET D., MOTTIER Ch., loc. cit., J.B. BailliÃ¨re, Orthophonie, 7, 1978, 264  p., p. 9.	</DF>
+            <NT>NT :  LAFON J. C., Les Enfants dÃ©ficients auditifs, Simep, 1985, 207 p., p. 75.	</NT>
+            <PH>PH :  PIALOUX  P., VALTAT M., FREYSS G., LEGENT F., PrÃ©cis d'orthophonie, Masson, Paris, 1975, 300 p., p. 253.	</PH>
+            <RF>RF | VE :  BUSQUET D., MOTTIER Ch., L'enfant sourd. DÃ©veloppement psychologique et rÃ©Ã©ducation,                   J. B. BailliÃ¨re, Orthophonie, 7, 1978, 264 p., p. 11.</RF>
+            <VE>VE :  SurditÃ©	</VE>
         </Langue>
     </FICHE>
     <FICHE id="3">
-        <SD>SD :  ORL; Audiologie; Surdité</SD>
-        <BE>BE :  PNR 12/2011 – 04/06/2011</BE>
+        <SD>SD :  ORL; Audiologie; SurditÃ©</SD>
+        <BE>BE :  PNR 12/2011 â€“ 04/06/2011</BE>
         <AU>AU :  AUTEUR Nassim, AUTEUR Abdellatif, AUTEUR Rabia, AUTEUR Nacira, AUTEUR Meriem, AUTEUR Yamina </AU>
-        <TY>TY :  Fiche terminologique arabe-français : concepts médicaux</TY>
-        <DO>DO :  Médecine &amp; Orthophonie</DO>
+        <TY>TY :  Fiche terminologique arabe-franÃ§ais : concepts mÃ©dicaux</TY>
+        <DO>DO :  MÃ©decine &amp; Orthophonie</DO>
         <Langue id="AR">
-            <DF>DF :  مرض يصيب الدماغ و يقلل القدرة على التحكم في الأعصاب، يصيب غالبا البالغين ما بين الخمسين و السبعين. من أعراضه الرعاش، بطء الحركة، التصلب، و فقدان الاتزان.  	</DF>
-            <RF>RF | NT : PH : DF : VE :  عباس محمود عوض، علم النفس الفسيولوجي، الدار الجامعية للمطبوعات والنشر، 1981،231 ص،  ص 72.   </RF>
-            <NT>NT :  يعتمد علاج الباركينسون على استعمال الدوبامين.	</NT>
-            <PH>PH :  الرجفة الباركينسونية.	</PH>
-            <VE>VE :  مرض الباركينسون	</VE>
+            <DF>DF :  Ù…Ø±Ø¶ ÙŠØµÙŠØ¨ Ø§Ù„Ø¯Ù…Ø§Øº Ùˆ ÙŠÙ‚Ù„Ù„ Ø§Ù„Ù‚Ø¯Ø±Ø© Ø¹Ù„Ù‰ Ø§Ù„ØªØ­ÙƒÙ… Ù�ÙŠ Ø§Ù„Ø£Ø¹ØµØ§Ø¨ØŒ ÙŠØµÙŠØ¨ ØºØ§Ù„Ø¨Ø§ Ø§Ù„Ø¨Ø§Ù„ØºÙŠÙ† Ù…Ø§ Ø¨ÙŠÙ† Ø§Ù„Ø®Ù…Ø³ÙŠÙ† Ùˆ Ø§Ù„Ø³Ø¨Ø¹ÙŠÙ†. Ù…Ù† Ø£Ø¹Ø±Ø§Ø¶Ù‡ Ø§Ù„Ø±Ø¹Ø§Ø´ØŒ Ø¨Ø·Ø¡ Ø§Ù„Ø­Ø±ÙƒØ©ØŒ Ø§Ù„ØªØµÙ„Ø¨ØŒ Ùˆ Ù�Ù‚Ø¯Ø§Ù† Ø§Ù„Ø§ØªØ²Ø§Ù†.  	</DF>
+            <RF>RF | NT : PH : DF : VE :  Ø¹Ø¨Ø§Ø³ Ù…Ø­Ù…ÙˆØ¯ Ø¹ÙˆØ¶ØŒ Ø¹Ù„Ù… Ø§Ù„Ù†Ù�Ø³ Ø§Ù„Ù�Ø³ÙŠÙˆÙ„ÙˆØ¬ÙŠØŒ Ø§Ù„Ø¯Ø§Ø± Ø§Ù„Ø¬Ø§Ù…Ø¹ÙŠØ© Ù„Ù„Ù…Ø·Ø¨ÙˆØ¹Ø§Øª ÙˆØ§Ù„Ù†Ø´Ø±ØŒ 1981ØŒ231 ØµØŒ  Øµ 72.   </RF>
+            <NT>NT :  ÙŠØ¹ØªÙ…Ø¯ Ø¹Ù„Ø§Ø¬ Ø§Ù„Ø¨Ø§Ø±ÙƒÙŠÙ†Ø³ÙˆÙ† Ø¹Ù„Ù‰ Ø§Ø³ØªØ¹Ù…Ø§Ù„ Ø§Ù„Ø¯ÙˆØ¨Ø§Ù…ÙŠÙ†.	</NT>
+            <PH>PH :  Ø§Ù„Ø±Ø¬Ù�Ø© Ø§Ù„Ø¨Ø§Ø±ÙƒÙŠÙ†Ø³ÙˆÙ†ÙŠØ©.	</PH>
+            <VE>VE :  Ù…Ø±Ø¶ Ø§Ù„Ø¨Ø§Ø±ÙƒÙŠÙ†Ø³ÙˆÙ†	</VE>
         </Langue>
         <Langue id="FR">
             <DF>DF :  AUZOU P., OZSANCAK C., loc. cit, 2005,  p. 19.	</DF>
             <NT>NT :  AUZOU P., OZSANCAK C., loc. cit, 2005,  p. 27.   	</NT>
             <PH>PH :  AUZOU P., OZSANCAK C., loc. cit, 2005,  p. 22.   	</PH>
-            <RF>RF | VE :  AUZOU P., OZSANCAK C., Les troubles de la parole et de la déglutition dans la maladie de Parkinson, Solal, France, 2005, 432 p., p. 10.</RF>
+            <RF>RF | VE :  AUZOU P., OZSANCAK C., Les troubles de la parole et de la dÃ©glutition dans la maladie de Parkinson, Solal, France, 2005, 432 p., p. 10.</RF>
             <VE>VE :  Maladie de PARKINSON 	</VE>
         </Langue>
     </FICHE>
     <FICHE id="4">
-        <SD>SD :  ORL; Audiologie; Surdité</SD>
-        <BE>BE :  PNR 12/2011 – 04/06/2011</BE>
+        <SD>SD :  ORL; Audiologie; SurditÃ©</SD>
+        <BE>BE :  PNR 12/2011 â€“ 04/06/2011</BE>
         <AU>AU :  AUTEUR Nassim, AUTEUR Abdellatif, AUTEUR Rabia, AUTEUR Nacira </AU>
-        <TY>TY :  Fiche terminologique arabe-français : concepts médicaux</TY>
-        <DO>DO :  Médecine &amp; Orthophonie</DO>
+        <TY>TY :  Fiche terminologique arabe-franÃ§ais : concepts mÃ©dicaux</TY>
+        <DO>DO :  MÃ©decine &amp; Orthophonie</DO>
         <Langue id="AR">
-            <DF>DF :  كل العيوب الصوتية البسيطة (مفردة) التي تستمر إلى سن يتوقع لأدائها أن يتم بشكل صحيح.	</DF>
-            <NT>NT :  جمال الخطيب، المرجع السابق، ص 18.	</NT>
-            <PH>PH :  التدريس الأكاديمي لنصيرة بشكل ، لوحدة اضطرا بات النطق لليسانس الأرطفونيا، قسم علم النفس و علوم التربية ، جامعة الجزائر، 1997-1998، الترجمة باللغة الفرنسية لكتاب درس علم النطق العربي، ديوان المطبوعات الجامعية، الجزائر، 111 ص، ص 74،1984، دروس مترجمة إلى اللغة العربية.	</PH>
-            <RF>RF | DF : VE :  م. ناصر القطبي ، الرئيس السابق ل ال IALP : “International Association of Logopaedics and Phoniatrics” ، 1995،عضو اللجنة العلمية لمجلة   :« FOLIA PHONIATRICA ET LOGOPAEDICA »  ،   المستشفى المتخصص لجامعة عين الشمس، وحدة أمراض الصوت، ، القاهرة، مصر، البريد الالكتروني ل 29 جوان 2003، الساعة: 20 و19 دقيقة. </RF>
-            <VE>VE :  لثغ بين الثنايا؛ لثغة	</VE>
+            <DF>DF :  ÙƒÙ„ Ø§Ù„Ø¹ÙŠÙˆØ¨ Ø§Ù„ØµÙˆØªÙŠØ© Ø§Ù„Ø¨Ø³ÙŠØ·Ø© (Ù…Ù�Ø±Ø¯Ø©) Ø§Ù„ØªÙŠ ØªØ³ØªÙ…Ø± Ø¥Ù„Ù‰ Ø³Ù† ÙŠØªÙˆÙ‚Ø¹ Ù„Ø£Ø¯Ø§Ø¦Ù‡Ø§ Ø£Ù† ÙŠØªÙ… Ø¨Ø´ÙƒÙ„ ØµØ­ÙŠØ­.	</DF>
+            <NT>NT :  Ø¬Ù…Ø§Ù„ Ø§Ù„Ø®Ø·ÙŠØ¨ØŒ Ø§Ù„Ù…Ø±Ø¬Ø¹ Ø§Ù„Ø³Ø§Ø¨Ù‚ØŒ Øµ 18.	</NT>
+            <PH>PH :  Ø§Ù„ØªØ¯Ø±ÙŠØ³ Ø§Ù„Ø£ÙƒØ§Ø¯ÙŠÙ…ÙŠ Ù„Ù†ØµÙŠØ±Ø© Ø¨Ø´ÙƒÙ„ ØŒ Ù„ÙˆØ­Ø¯Ø© Ø§Ø¶Ø·Ø±Ø§ Ø¨Ø§Øª Ø§Ù„Ù†Ø·Ù‚ Ù„Ù„ÙŠØ³Ø§Ù†Ø³ Ø§Ù„Ø£Ø±Ø·Ù�ÙˆÙ†ÙŠØ§ØŒ Ù‚Ø³Ù… Ø¹Ù„Ù… Ø§Ù„Ù†Ù�Ø³ Ùˆ Ø¹Ù„ÙˆÙ… Ø§Ù„ØªØ±Ø¨ÙŠØ© ØŒ Ø¬Ø§Ù…Ø¹Ø© Ø§Ù„Ø¬Ø²Ø§Ø¦Ø±ØŒ 1997-1998ØŒ Ø§Ù„ØªØ±Ø¬Ù…Ø© Ø¨Ø§Ù„Ù„ØºØ© Ø§Ù„Ù�Ø±Ù†Ø³ÙŠØ© Ù„ÙƒØªØ§Ø¨ Ø¯Ø±Ø³ Ø¹Ù„Ù… Ø§Ù„Ù†Ø·Ù‚ Ø§Ù„Ø¹Ø±Ø¨ÙŠØŒ Ø¯ÙŠÙˆØ§Ù† Ø§Ù„Ù…Ø·Ø¨ÙˆØ¹Ø§Øª Ø§Ù„Ø¬Ø§Ù…Ø¹ÙŠØ©ØŒ Ø§Ù„Ø¬Ø²Ø§Ø¦Ø±ØŒ 111 ØµØŒ Øµ 74ØŒ1984ØŒ Ø¯Ø±ÙˆØ³ Ù…ØªØ±Ø¬Ù…Ø© Ø¥Ù„Ù‰ Ø§Ù„Ù„ØºØ© Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©.	</PH>
+            <RF>RF | DF : VE :  Ù…. Ù†Ø§ØµØ± Ø§Ù„Ù‚Ø·Ø¨ÙŠ ØŒ Ø§Ù„Ø±Ø¦ÙŠØ³ Ø§Ù„Ø³Ø§Ø¨Ù‚ Ù„ Ø§Ù„ IALP : â€œInternational Association of Logopaedics and Phoniatricsâ€� ØŒ 1995ØŒØ¹Ø¶Ùˆ Ø§Ù„Ù„Ø¬Ù†Ø© Ø§Ù„Ø¹Ù„Ù…ÙŠØ© Ù„Ù…Ø¬Ù„Ø©   :Â« FOLIA PHONIATRICA ET LOGOPAEDICA Â»  ØŒ   Ø§Ù„Ù…Ø³ØªØ´Ù�Ù‰ Ø§Ù„Ù…ØªØ®ØµØµ Ù„Ø¬Ø§Ù…Ø¹Ø© Ø¹ÙŠÙ† Ø§Ù„Ø´Ù…Ø³ØŒ ÙˆØ­Ø¯Ø© Ø£Ù…Ø±Ø§Ø¶ Ø§Ù„ØµÙˆØªØŒ ØŒ Ø§Ù„Ù‚Ø§Ù‡Ø±Ø©ØŒ Ù…ØµØ±ØŒ Ø§Ù„Ø¨Ø±ÙŠØ¯ Ø§Ù„Ø§Ù„ÙƒØªØ±ÙˆÙ†ÙŠ Ù„ 29 Ø¬ÙˆØ§Ù† 2003ØŒ Ø§Ù„Ø³Ø§Ø¹Ø©: 20 Ùˆ19 Ø¯Ù‚ÙŠÙ‚Ø©. </RF>
+            <VE>VE :  Ù„Ø«Øº Ø¨ÙŠÙ† Ø§Ù„Ø«Ù†Ø§ÙŠØ§Ø› Ù„Ø«ØºØ©	</VE>
         </Langue>
         <Langue id="FR">
-            <DF>DF :  Trouble articulatoire fonctionnel qui touche le point d’articulation.	</DF>
+            <DF>DF :  Trouble articulatoire fonctionnel qui touche le point dâ€™articulation.	</DF>
             <NT>NT :  AUTEUR AUTEUR, loc. cit., 1992,  p. 189.	</NT>
             <PH>PH :  Sigmatisme interdental par substitution.	</PH>
             <RF>RF | PH : DF : VE :  AUTEUR AUTEUR, AUTEUR de cas, Office des Publications Universitaires, Alger, 1992, 300 p., p. 189 ; AUTEUR AUTEUR, loc. cit., 1984,  p. 74.</RF>
