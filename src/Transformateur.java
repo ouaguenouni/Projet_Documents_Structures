@@ -1,3 +1,4 @@
+import org.w3c.dom.DOMImplementation;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -82,7 +83,9 @@ public abstract class Transformateur implements Transformable {
         final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             final DocumentBuilder builder = factory.newDocumentBuilder();
-            final Document document = builder.newDocument();
+            DOMImplementation DMIP = builder.getDOMImplementation();
+
+            final Document document = DMIP.createDocument(null,null,null);
 
 
             //Transformateur_FichTxt TF = new Transformateur_FichTxt();
