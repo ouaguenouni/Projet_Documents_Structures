@@ -19,7 +19,6 @@ public class Transformateur_Renault extends Transformateur {
     }
 
     public static void parcourRecursif(Node E, StringBuilder ss) {
-
         NodeList LN = E.getChildNodes();
         for (int i = 0; i < LN.getLength(); i++) {
             if (LN.item(i).getNodeValue() != null && !LN.item(i).getNodeValue().equals("null"))

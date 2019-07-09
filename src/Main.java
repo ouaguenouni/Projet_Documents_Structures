@@ -45,13 +45,13 @@ public class Main {
 
     public void pretraitementFichier(File source){
         //Ici il reste a construire pour chaque source sa destination
-        File Sortie = new File("fichiers-de-sortie").mkdir();
+        File Sortie = new File("fichiers-de-sortie");
         //Donc la source ça serra source.getAbsolutePath ensuite faut manipuler le chemin de la source pour générer le chemin de la cible
         switch (source.getName())
         {
             case "fiches.txt":
                 //Ici il faut construire deux lignes dans chaque dictionnaire fiches.txt1 fiches.txt2
-                source_cible.put(source.getAbsolutePath+"fiches.txt1","fiches1.xml");
+                source_cible.put(source.getAbsolutePath()+"fiches.txt1","fiches1.xml");
                 source_cible.put("fiches.txt2","fiches2.xml");
                 break;
             case "M674.txt":
@@ -82,9 +82,10 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         Parcour(new File("C:\\Users\\mohamed\\Desktop\\PFE\\Projet_Documents_Structures\\examen"));
-        //poeme();
-        //m674();
-
+        Transformable TM = new Transformateur_M457();
+        TM.transform("C:\\Users\\mohamed\\Desktop\\PFE\\Projet_Documents_Structures\\examen\\M457.xml",
+                "C:\\Users\\mohamed\\Desktop\\PFE\\Projet_Documents_Structures\\Rez.xml",
+                "M457.xml");
     }
 
     }

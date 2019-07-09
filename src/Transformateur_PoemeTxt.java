@@ -5,22 +5,26 @@ import org.w3c.dom.Element;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.transform.OutputKeys;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.*;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.*;
 
-public class Transformateur_PoemeTxt {
+public class Transformateur_PoemeTxt implements Transformable {
 
     public static void main(String[] str)
     {  }
 
-    static void Transformateur_PoemeTxt(String source, String cible, String nom) throws Exception
+    public void transform(String source, String cible, String nom) throws FileNotFoundException
     {
         int i=1;
-        DocumentBuilder parseur = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+        DocumentBuilder parseur = null;
+        try {
+            parseur = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+        } catch (ParserConfigurationException e) {
+            e.printStackTrace();
+        }
         DOMImplementation domimp = parseur.getDOMImplementation();
         DocumentType dtd = domimp.createDocumentType("poema",null,"neruda.dtd");
         Document doc = domimp.createDocument(null,"poema",dtd);
@@ -66,10 +70,20 @@ public class Transformateur_PoemeTxt {
 
         DOMSource ds = new DOMSource(doc);
         StreamResult res = new StreamResult(new File(cible+nom));
-        Transformer tr = TransformerFactory.newInstance().newTransformer();tr.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
+        Transformer tr = null;
+        try {
+            tr = TransformerFactory.newInstance().newTransformer();
+        } catch (TransformerConfigurationException e) {
+            e.printStackTrace();
+        }
+        tr.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
         tr.setOutputProperty(OutputKeys.INDENT, "yes");
         tr.setOutputProperty(OutputKeys.DOCTYPE_SYSTEM, "neruda.dtd");
-        tr.transform(ds, res);
+        try {
+            tr.transform(ds, res);
+        } catch (TransformerException e) {
+            e.printStackTrace();
+        }
     }
 
 
