@@ -64,7 +64,7 @@ public class Main {
                 source_cible.put(source,"javafx.xml");
                 break;
             case "renault.html":
-                source_cible.put(source,"renault.html");
+                source_cible.put(source,"renault.xml");
                 break;
             case "M457.xml":
                 source_cible.put(source,"sortie2.xml");
